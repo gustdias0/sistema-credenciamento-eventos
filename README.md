@@ -44,7 +44,7 @@ Para resolver o desafio, foi projetada uma arquitetura de dados centralizada no 
 
 **App de Check-in Personalizado em Ação:**
 *Para garantir um check-in rápido e sem erros, foi desenvolvido um aplicativo interno com o Google AppSheet. A equipe de credenciamento utiliza o app para escanear o QR Code do participante, o que filtra instantaneamente a lista de inscritos. Com um único toque, o check-in é confirmado e a base de dados é atualizada em tempo real. Veja em funcionamento:*
-<img src="https://github.com/user-attachments/assets/70d792b1-b120-4b32-98f3-5d0effca9f15" width="600">
+<img src="./gif-app-checkin.gif" width="600">
 
 
 
