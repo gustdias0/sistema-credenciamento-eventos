@@ -29,7 +29,9 @@ O objetivo era criar um sistema de credenciamento para o evento "A Jornada do Co
 Para resolver o desafio, foi projetada uma arquitetura de dados centralizada no Google Workspace, onde cada ferramenta desempenha um papel específico, mas integrado, garantindo um fluxo de dados perfeito e em tempo real.
 
 **Diagrama da Arquitetura:**
-![Diagrama da Arquitetura](./assets/diagrama-arquitetura.png)
+
+<img width="600" height="91" alt="diagrama-arquitetura" src="https://github.com/user-attachments/assets/2e223746-e5f3-4fd7-9ff3-b80febb88573" />
+
 
 ### 4. Tecnologias Utilizadas
 - **Tally.so:** Utilizado para a criação do formulário de inscrição inteligente, com lógica condicional para adaptar as perguntas ao perfil do participante.
@@ -42,11 +44,17 @@ Para resolver o desafio, foi projetada uma arquitetura de dados centralizada no 
 
 **App de Check-in Personalizado em Ação:**
 *Para garantir um check-in rápido e sem erros, foi desenvolvido um aplicativo interno com o Google AppSheet. A equipe de credenciamento utiliza o app para escanear o QR Code do participante, o que filtra instantaneamente a lista de inscritos. Com um único toque, o check-in é confirmado e a base de dados é atualizada em tempo real. Veja em funcionamento:*
-![Check-in em Ação](./assets/gif-app-checkin.gif)
+<img src="https://github.com/user-attachments/assets/70d792b1-b120-4b32-98f3-5d0effca9f15" width="600">
+
+
+
+
+
 
 **Dashboard em Tempo Real:**
 *Um painel de comando foi criado no Google Looker Studio para a organização do evento. O dashboard mostra ao vivo os principais KPIs: total de presentes, taxa de comparecimento, o perfil do público que já chegou (separado por tipo de acesso) e o fluxo de entradas ao longo do dia, transformando dados operacionais em inteligência de negócio.*
-![Dashboard de Comando](./assets/screenshot-dashboard.jpg)
+<img width="640" height="480" alt="screenshot-dashboard" src="https://github.com/user-attachments/assets/3ac2dcd0-45ee-4741-9769-d41a0113c58a" />
+
 
 ### 6. Resultados e Valor Agregado
 A implementação deste sistema entregou valor em múltiplas frentes:
